@@ -16,9 +16,11 @@ app.use(express.static(path.join(__dirname, "public")));
 
 // Express Route Import
 const test = require("./routes/test");
+const rpc = require("./routes/rpc");
 
 // Express Route Path
 app.use("/test", test);
+app.use("/rpc", rpc);
 
 
 // catch 404 and forward to error handler

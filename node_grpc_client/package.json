@@ -1,0 +1,21 @@
+{
+  "name": "sample",
+  "version": "0.0.1",
+  "description": "sample",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "strong3879@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "http": "0.0.1-security",
+    "mocha": "^10.0.0",
+    "morgan": "^1.10.0",
+    "path": "^0.12.7",
+    "should": "^13.2.3",
+    "supertest": "^6.2.3"
+  }
+}
